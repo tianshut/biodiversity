@@ -110,6 +110,7 @@
             var studioSelect = document.getElementById('studio-select');
             var grossAvg = document.getElementById('gross-average');
             var openingAvg = document.getElementById('opening-average');
+            var studioAvg = document.getElementById('studio-average');
 
 
 
@@ -144,6 +145,7 @@
 
             grossAvg.textContent = "$" + (topGrossMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topGrossMovies.length).toFixed(2);
             openingAvg.textContent = "$" + (topOpeningMovies.reduce(function (total, movie) { return total + movie.opening_gross; }, 0) / topOpeningMovies.length).toFixed(2);
+            studioAvg.textContent = "$" + (topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length).toFixed(2);
 
 
 
@@ -221,6 +223,8 @@
             });
 
             topStudioMovies = topStudioMovies.slice(0, 10);
+
+            document.getElementById('studio-average').textContent = "$" + (topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length).toFixed(2);
 
             topStudioMovies.forEach(function (item, idx, arr) {
                 var li = document.createElement('li');
