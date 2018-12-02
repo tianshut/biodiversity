@@ -22,7 +22,7 @@
 
         <div id='top-ten-movies-by-studio'>
             <h2>Top 10 by <span id="studio-name">Studio</span>
-                <select id='studio-select'>
+                <select id='studio-select' onchange="updateStudioRank()">
                 </select>
             </h2>
             <h4>Avg: <span id="studio-average"></span></h4>
@@ -77,7 +77,7 @@
 
         // Custom event handler fired once movies are all loaded via AJAX.
         window.addEventListener('moviesLoaded', function(e) {
-            var movieTable = document.createElement('table');
+            /*var movieTable = document.createElement('table');
             var header = document.createElement('tr');
 
             var titleHead = document.createElement('th');
@@ -104,9 +104,68 @@
             header.append(totalTheatersHead);
             header.append(openingGrossHead);
             header.append(openingTheatersHead);
-            movieTable.append(header);
+            movieTable.append(header);*/
 
-            movies.forEach(function(item, idx, arr) {
+            var uniqueStudios = movies.map(movie => movie.studio).filter((value, index, self) => self.indexOf(value) === index);
+            var studioSelect = document.getElementById('studio-select');
+            var grossAvg = document.getElementById('gross-average');
+            var openingAvg = document.getElementById('opening-average');
+
+
+
+            uniqueStudios.forEach(function (item, idx, arr) {
+                var opt = document.createElement('option');
+                opt.textContent = item.toString();
+
+                studioSelect.append(opt);
+            });
+
+            var topGrossMovies = movies.slice();
+            var topStudioMovies = movies.slice();
+            var topOpeningMovies = movies.slice();
+
+
+            topGrossMovies.sort(function (a, b) {
+                return b.total_gross - a.total_gross;
+            });
+
+            topOpeningMovies.sort(function (a, b) {
+                return b.opening_gross - a.opening_gross;
+            });
+            topStudioMovies = topStudioMovies.filter(movie => movie.studio === topStudioMovies[0].studio);
+            topStudioMovies.sort(function (a, b) {
+                return b.total_gross - a.total_gross;
+            })
+
+            topGrossMovies = topGrossMovies.slice(0, 10);
+            topOpeningMovies = topOpeningMovies.slice(0, 10);
+            topStudioMovies = topStudioMovies.slice(0, 10);
+
+
+            grossAvg.textContent = "$" + (topGrossMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topGrossMovies.length).toFixed(2);
+            openingAvg.textContent = "$" + (topOpeningMovies.reduce(function (total, movie) { return total + movie.opening_gross; }, 0) / topOpeningMovies.length).toFixed(2);
+
+
+
+            topGrossMovies.forEach(function (item, idx, arr) {
+                var li = document.createElement('li');
+                li.textContent = item.title;
+                document.getElementById('gross-movies').appendChild(li);
+            });
+
+            topOpeningMovies.forEach(function (item, idx, arr) {
+                var li = document.createElement('li');
+                li.textContent = item.title;
+                document.getElementById('opening-movies').appendChild(li);
+            });
+
+            topStudioMovies.forEach(function (item, idx, arr) {
+                var li = document.createElement('li');
+                li.textContent = item.title;
+                document.getElementById('studio-movies').appendChild(li);
+            });
+
+            /*movies.forEach(function(item, idx, arr) {
                 var mRow = document.createElement('tr');
                 var mTitle = document.createElement('td');
                 var mStudio = document.createElement('td');
@@ -132,8 +191,44 @@
                 movieTable.append(mRow);
             });
 
-            movieListDiv.append(movieTable);
+            movieListDiv.append(movieTable);*/
+
+
         });
+
+        function updateStudioRank() {
+            var select = document.getElementById('studio-movies');
+            while(select.firstChild) {
+                select.removeChild(select.firstChild);
+            }
+
+
+            var studio = document.getElementById('studio-select').value;
+
+            var uniqueStudios = movies.map(movie => movie.studio).filter((value, index, self) => self.indexOf(value) === index);
+            var studioSelect = document.getElementById('studio-select');
+
+            uniqueStudios.forEach(function (item, idx, arr) {
+                var opt = document.createElement('option');
+                opt.textContent = item.toString();
+
+                studioSelect.append(opt);
+            });
+            var topStudioMovies = movies.slice();
+            topStudioMovies = topStudioMovies.filter(movie => movie.studio === studio);
+                topStudioMovies.sort(function (a, b) {
+                return b.total_gross - a.total_gross;
+            });
+
+            topStudioMovies = topStudioMovies.slice(0, 10);
+
+            topStudioMovies.forEach(function (item, idx, arr) {
+                var li = document.createElement('li');
+                li.textContent = item.title;
+                document.getElementById('studio-movies').appendChild(li);
+            });
+        }
+
     </script>
 </body>
 
