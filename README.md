@@ -1,7 +1,7 @@
 # Box Office Dashboard -- <Replace with your name>
 
-Name: <Full Name>
-Pitt ID: <ID>
+Name: Eric Hunzeker
+Pitt ID: emh128
 
 ## Installation
 

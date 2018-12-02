@@ -1,5 +1,8 @@
-from flask import Flask, render_template, jsonify
+from functools import wraps
+
+from flask import Flask, render_template, jsonify, request, Response
 from flask_restful import Api, Resource
+from werkzeug.security import generate_password_hash, check_password_hash
 import csv
 
 movies = []
@@ -10,16 +13,42 @@ api = Api(app, prefix="/api")
 
 auth_user = [{
     "name": "admin",
-    "password": "plaintextboo"
+    "password": generate_password_hash("plaintextboo")
 }]
 
+
 ## Auth Decorator and Helpers
+
+
+def check_auth(username, password):
+    return username == auth_user[0]["name"] and check_password_hash(auth_user[0]["password"], password)
+
+
+def authenticate():
+    """Sends a 401 response that enables basic auth"""
+    return Response(
+    'Could not verify your access level for that URL.\n'
+    'You have to login with proper credentials', 401,
+    {'WWW-Authenticate': 'Basic realm="Login Required"'})
+
+
+def requires_auth(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        auth = request.authorization
+        if not auth:
+            return authenticate()
+        if not check_auth(auth.username, auth.password):
+            return authenticate()
+        return f(*args, **kwargs)
+    return decorated
 
 
 ## Flask Routes
 
 
 @app.route("/")
+@requires_auth
 def landing():
     return render_template("base.html")
 

@@ -77,35 +77,6 @@
 
         // Custom event handler fired once movies are all loaded via AJAX.
         window.addEventListener('moviesLoaded', function(e) {
-            /*var movieTable = document.createElement('table');
-            var header = document.createElement('tr');
-
-            var titleHead = document.createElement('th');
-            titleHead.textContent = 'Title';
-
-            var studioHead = document.createElement('th');
-            studioHead.textContent = 'Studio';
-
-            var totalGrossHead = document.createElement('th');
-            totalGrossHead.textContent = 'Total Gross';
-
-            var totalTheatersHead = document.createElement('th');
-            totalTheatersHead.textContent = 'Total Theaters';
-
-            var openingGrossHead = document.createElement('th');
-            openingGrossHead.textContent = 'Opening Gross';
-
-            var openingTheatersHead = document.createElement('th');
-            openingTheatersHead.textContent = 'Opening Theaters';
-
-            header.append(titleHead);
-            header.append(studioHead);
-            header.append(totalGrossHead);
-            header.append(totalTheatersHead);
-            header.append(openingGrossHead);
-            header.append(openingTheatersHead);
-            movieTable.append(header);*/
-
             var uniqueStudios = movies.map(movie => movie.studio).filter((value, index, self) => self.indexOf(value) === index);
             var studioSelect = document.getElementById('studio-select');
             var grossAvg = document.getElementById('gross-average');
@@ -113,12 +84,12 @@
             var studioAvg = document.getElementById('studio-average');
 
 
-
-            uniqueStudios.forEach(function (item, idx, arr) {
+            uniqueStudios.map(function (movie) {
                 var opt = document.createElement('option');
-                opt.textContent = item.toString();
+                opt.textContent = movie.toString();
 
                 studioSelect.append(opt);
+
             });
 
             var topGrossMovies = movies.slice();
@@ -148,53 +119,23 @@
             studioAvg.textContent = "$" + (topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length).toFixed(2);
 
 
-
-            topGrossMovies.forEach(function (item, idx, arr) {
+            topGrossMovies.map(function (movie) {
                 var li = document.createElement('li');
-                li.textContent = item.title;
+                li.textContent = movie.title;
                 document.getElementById('gross-movies').appendChild(li);
             });
 
-            topOpeningMovies.forEach(function (item, idx, arr) {
+            topOpeningMovies.map(function (movie) {
                 var li = document.createElement('li');
-                li.textContent = item.title;
+                li.textContent = movie.title;
                 document.getElementById('opening-movies').appendChild(li);
             });
 
-            topStudioMovies.forEach(function (item, idx, arr) {
+            topStudioMovies.map(function (movie) {
                 var li = document.createElement('li');
-                li.textContent = item.title;
+                li.textContent = movie.title;
                 document.getElementById('studio-movies').appendChild(li);
             });
-
-            /*movies.forEach(function(item, idx, arr) {
-                var mRow = document.createElement('tr');
-                var mTitle = document.createElement('td');
-                var mStudio = document.createElement('td');
-                var mTotalGross = document.createElement('td');
-                var mTotalTheaters = document.createElement('td');
-                var mOpeningGross = document.createElement('td');
-                var mOpeningTheaters = document.createElement('td');
-
-                mTitle.textContent = item.title;
-                mStudio.textContent = item.studio;
-                mTotalGross.textContent = formatNumbers(item.total_gross, true);
-                mTotalTheaters.textContent = formatNumbers(item.total_theaters, false);
-                mOpeningGross.textContent = formatNumbers(item.opening_gross, true);
-                mOpeningTheaters.textContent = formatNumbers(item.opening_theaters, false);
-
-                mRow.append(mTitle);
-                mRow.append(mStudio);
-                mRow.append(mTotalGross);
-                mRow.append(mTotalTheaters);
-                mRow.append(mOpeningGross);
-                mRow.append(mOpeningTheaters);
-
-                movieTable.append(mRow);
-            });
-
-            movieListDiv.append(movieTable);*/
-
 
         });
 
@@ -204,18 +145,19 @@
                 select.removeChild(select.firstChild);
             }
 
-
             var studio = document.getElementById('studio-select').value;
 
             var uniqueStudios = movies.map(movie => movie.studio).filter((value, index, self) => self.indexOf(value) === index);
             var studioSelect = document.getElementById('studio-select');
 
-            uniqueStudios.forEach(function (item, idx, arr) {
+            uniqueStudios.map(function (movie) {
                 var opt = document.createElement('option');
-                opt.textContent = item.toString();
+                opt.textContent = movie.toString();
 
                 studioSelect.append(opt);
+
             });
+
             var topStudioMovies = movies.slice();
             topStudioMovies = topStudioMovies.filter(movie => movie.studio === studio);
                 topStudioMovies.sort(function (a, b) {
@@ -226,9 +168,9 @@
 
             document.getElementById('studio-average').textContent = "$" + (topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length).toFixed(2);
 
-            topStudioMovies.forEach(function (item, idx, arr) {
+            topStudioMovies.map(function (movie) {
                 var li = document.createElement('li');
-                li.textContent = item.title;
+                li.textContent = movie.title;
                 document.getElementById('studio-movies').appendChild(li);
             });
         }
