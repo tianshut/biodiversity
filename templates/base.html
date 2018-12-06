@@ -114,9 +114,9 @@
             topStudioMovies = topStudioMovies.slice(0, 10);
 
 
-            grossAvg.textContent = "$" + (topGrossMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topGrossMovies.length).toFixed(2);
-            openingAvg.textContent = "$" + (topOpeningMovies.reduce(function (total, movie) { return total + movie.opening_gross; }, 0) / topOpeningMovies.length).toFixed(2);
-            studioAvg.textContent = "$" + (topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length).toFixed(2);
+            grossAvg.textContent = formatNumbers((topGrossMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topGrossMovies.length), true);
+            openingAvg.textContent = formatNumbers((topOpeningMovies.reduce(function (total, movie) { return total + movie.opening_gross; }, 0) / topOpeningMovies.length), true);
+            studioAvg.textContent = formatNumbers((topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length), true);
 
 
             topGrossMovies.map(function (movie) {
@@ -139,6 +139,16 @@
 
         });
 
+        function formatNumbers(number, currency) {
+            if (number) {
+                number = Math.round(number * 10)/10
+                number = number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                if (currency) {
+                    number = '$' + number;
+                }
+            }
+            return number
+        }
         function updateStudioRank() {
             var select = document.getElementById('studio-movies');
             while(select.firstChild) {
@@ -166,7 +176,7 @@
 
             topStudioMovies = topStudioMovies.slice(0, 10);
 
-            document.getElementById('studio-average').textContent = "$" + (topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length).toFixed(2);
+            document.getElementById('studio-average').textContent = formatNumbers((topStudioMovies.reduce(function (total, movie) { return total + movie.total_gross; }, 0) / topStudioMovies.length), true);
 
             topStudioMovies.map(function (movie) {
                 var li = document.createElement('li');
