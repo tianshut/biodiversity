@@ -1,4 +1,4 @@
-# Box Office Dashboard -- <Replace with your name>
+# Box Office Dashboard -- Eric Hunzeker
 
 Name: Eric Hunzeker
 Pitt ID: emh128
