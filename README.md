@@ -1,8 +1,5 @@
 # Box Office Dashboard -- Eric Hunzeker
 
-Name: Eric Hunzeker
-Pitt ID: emh128
-
 ## Installation
 
 1. Run `pip install -r requirements.txt` in a Python 3.7+ virtual environment
