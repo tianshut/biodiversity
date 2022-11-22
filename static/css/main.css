@@ -1,23 +1,138 @@
-.dashboard-grid {
+body {
+    margin: 0 !important;
+  }
+  
+  #container {
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 2;
-}
+    grid-template-rows: 75% 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #up {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  
+  #left {
+    display: grid;
+    grid-template-rows: 30% 70%;
+  }
+  
+  #right {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    overflow: hidden;
+  }
+  
+  #bandwidth {
+    position: absolute;
+    right: 100px;
+  }
+  
+  #range {
+    width: 120px;
+  }
+  
+  #text {
+    font-size: smaller;
+    font-style: oblique;
+    display: block;
+  }
+  
+  #bar-part {
+    display: grid;
+    grid-template-columns: 120px auto;
+  }
+  
+  #bar-graph {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #down {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  
+  #map-1 {
+    margin-bottom: 20px;
+  }
+  #map-1 .select-map {
+    width: calc(30%);
+  }
 
-#top-ten-movies {
-    grid-column: 1;
-}
-
-#top-ten-movies-by-studio {
-    grid-column: 2;
-}
-
-#top-ten-movies-by-opening-weekend {
-    grid-column: 3;
-}
-
-#movie-list-complete {
-    grid-row: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
+  #map-id {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-right: 30px;
+  }
+  
+  #map-id .select-map {
+    display: inline-block;
+    width: calc(30% - 3px);
+    height: calc(25vh - 20px);
+  }
+  
+  .leaflet-container:hover path.leaflet-interactive {
+    visibility: hidden;
+  }
+  
+  .leaflet-marker-icon.leaflet-div-icon.light,
+  .leaflet-pane.leaflet-shadow-pane {
+    display: none;
+  }
+  
+  .my-leaflet-marker {
+    pointer-events: none;
+  }
+  
+  #switchable {
+    position: relative;
+  }
+  
+  #switchable>.switches {
+    position: absolute;
+    z-index: 1;
+    right: 250px;
+  }
+  
+  #switchable>.page {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #switchable>.page.hidden {
+    z-index: -1;
+    width: 100%;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .lens {
+    stroke: gray;
+    stroke-width: 2.0px;
+    stroke-opacity: 0;
+    fill: none;
+  }
+  
+  #map-10 {
+    position: absolute;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+  }
+  
+  #load-new-data{
+    
+    width:142.5px;
+    height:10px
+  }
+  a{text-decoration:none;}

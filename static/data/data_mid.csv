@@ -1,0 +1,211 @@
+,species_name,modern_longitude,modern_latitude,start_year,end_year,ancient_longitude,ancient_latitude
+0,Annalepis   angusta,110.164,29.475,-247,-237,96.14,21.59
+1,Equisetum   arenaceus,110.164,29.475,-247,-237,96.14,21.59
+2,Gleichenites   benxiensis,123.69200000000001,41.284,-247,-237,103.09,43.54
+3,Annalepis   brevicystis,108.759,31.469,-247,-237,93.87,22.59
+4,Annalepis   brevicystis,108.744,29.752,-247,-237,94.86,21.15
+5,Annalepis   brevicystis,109.51700000000001,30.284000000000002,-247,-237,95.16,21.96
+6,Equisetites   brevidentatus ,93.101,43.571000000000005,-247,-237,71.53,49.05
+7,Equisetites   brevidentatus ,89.178,43.901,-247,-237,84.82,47.34
+8,Equisetites   brevidentatus ,110.494,38.009,-247,-237,88.78,41.72
+9,Neocalamites    carcinoides,93.101,43.571000000000005,-247,-237,71.53,49.05
+10,Neocalamites    carcinoides,89.178,43.901,-247,-237,84.82,47.34
+11,Neocalamites    carcinoides,110.986,37.95,-247,-201,95.39,45.09
+12,Neocalamites    carcinoides,109.056,35.209,-247,-237,86.82,39.09
+13,Neocalamites   carrerei,89.178,43.901,-247,-237,84.82,47.34
+14,Neocalamites   carrerei,111.12100000000001,38.461,-247,-201,95.69,45.57
+15,Neocalamites   carrerei,108.923,35.331,-247,-237,86.7,39.23
+16,Danaeopsis   cf.  marantacea,110.505,38.848,-247,-237,88.94,42.55
+17,Danaeopsis   cf.  marantacea,110.99799999999999,37.957,-247,-201,89.3,41.62
+18,Equisetites   cf. arenaceus,106.93799999999999,34.806,-247,-237,84.54,38.9
+19,Neocalamites   cf. carrerei,83.139,42.101000000000006,-247,-237,73.19,42.0
+20,Equisetites   cf. gracilis,110.164,29.475,-247,-237,96.14,21.59
+21,Lobatannularia   cf. heianensis,123.68700000000001,41.282,-247,-237,103.08,43.53
+22,Neocalamites   cf. hoerensis,89.178,43.901,-247,-237,84.82,47.34
+23,Equisetites   cf. mougeoti ,110.986,37.951,-247,-201,95.39,45.09
+24,Cladophlebis   cf. paralobifolia,84.863,45.549,-247,-201,62.14,48.5
+25,Cladophlebis   cf. paralobifolia,82.962,41.717,-247,-237,72.82,41.7
+26,Cladophlebis   cf. roessertii,109.01899999999999,35.246,-247,-237,86.79,39.13
+27,Cladophlebis   cf. roessertii,111.01700000000001,40.048,-247,-237,89.7,43.69
+28,Equisetites   cf. sarrani,111.12100000000001,38.461,-247,-201,95.69,45.57
+29,Symopteris   cf.densinervis,123.69200000000001,41.284,-247,-237,103.09,43.54
+30,Cf. Todites    cf.shensiensis,123.69200000000001,41.284,-247,-237,103.09,43.54
+31,Sphenopteris   digitata,123.69200000000001,41.284,-247,-237,103.09,43.54
+32,Anomopteris?   ermayingensis,112.557,36.698,-247,-237,90.71,40.21
+33,Isoetes   ermayingensis,110.661,37.478,-247,-237,88.87,41.18
+34,Isoetes   ermayingensis,113.031,36.316,-247,-237,91.14,39.78
+35,Danaeopsis   fecunda,88.896,44.016999999999996,-247,-201,84.73,47.57
+36,Danaeopsis   fecunda,110.992,37.951,-247,-201,89.3,41.62
+37,Danaeopsis   fecunda,111.12700000000001,38.461999999999996,-247,-201,89.53,42.11
+38,Danaeopsis   fecunda,111.67399999999999,36.253,-247,-201,89.72,39.86
+39,Equisetum   furongense ,110.294,29.511,-247,-237,96.22,21.68
+40,Annalepis   furongqiqoensis,110.294,29.511,-247,-237,96.22,21.68
+41,Cladophlebis   gracilis,82.962,41.717,-247,-237,72.82,41.7
+42,Cladophlebis   gracilis,110.681,36.097,-247,-201,88.66,39.81
+43,Cf. Symopteris   helvetica,123.69200000000001,41.284,-247,-237,103.09,43.54
+44,Pleuromeia   hunanensis,110.164,29.475,-247,-237,96.14,21.59
+45,Cladophlebis   ichunensis,123.69200000000001,41.284,-247,-237,103.09,43.54
+46,Cladophlebis   ichunensis,111.12700000000001,38.461999999999996,-247,-201,89.53,42.11
+47,Pleuromeia   labiata,109.01700000000001,35.229,-247,-237,86.78,39.11
+48,Annalepis   latiloba,110.164,29.475,-247,-237,96.14,21.59
+49,Sphenopteris   lobophylla,123.69200000000001,41.284,-247,-237,103.09,43.54
+50,Danaeopsis   magnifolia,109.008,35.245,-247,-237,86.77,39.13
+51,Danaeopsis   magnifolia,110.501,38.025999999999996,-247,-237,88.79,41.74
+52,Chiropteris   manasiensis,85.66799999999999,43.925,-247,-201,82.21,49.18
+53,Pleuromeia   marginulata,108.759,31.469,-247,-237,93.87,22.59
+54,Pleuromeia   marginulata,109.51700000000001,30.284000000000002,-247,-237,95.16,21.96
+55,Pleuromeia   marginulata,110.756,30.967,-247,-237,95.71,23.12
+56,Pleuromeia   marginulata,113.87799999999999,29.711,-247,-237,98.91,23.57
+57,Neocalamites   merianii ,123.68700000000001,41.282,-247,-237,103.08,43.53
+58,Neocalamites   merianii ,108.721,29.964000000000002,-247,-237,94.72,21.32
+59,Danaeopsis   minuta,110.68799999999999,36.104,-247,-201,88.67,39.81
+60,Schizoneura   ornata,123.68700000000001,41.282,-247,-237,103.08,43.53
+61,Todites   paralobifolius,111.12700000000001,38.461999999999996,-247,-201,89.53,42.11
+62,Shanxicladus   pastulosus,112.515,37.113,-247,-237,90.74,40.63
+63,Pleuromeia   pateriformis,109.321,30.801,-247,-237,94.7,22.3
+64,Lycostrobus   petiolatus,112.508,37.113,-247,-237,90.73,40.63
+65,Danaeopsis   plana,109.008,35.245,-247,-237,86.77,39.13
+66,Cladophlevis   qiandianziensis,123.69200000000001,41.284,-247,-237,103.09,43.54
+67,Lesangeana   qinxianensis,112.516,37.121,-247,-237,90.74,40.64
+68,Cladophlevis   raciborskii,108.92299999999999,35.33,-247,-201,86.7,39.22
+69,Cladophlevis   raciborskii,108.962,35.3,-247,-201,86.73,39.19
+70,Cladophlevis   raciborskii,110.992,37.951,-247,-201,89.3,41.62
+71,Cladophlevis   raciborskii,111.01100000000001,40.041,-247,-237,89.69,43.69
+72,Cladophlevis   raciborskii,111.01100000000001,40.041,-247,-201,89.69,43.69
+73,Taeniocladopsis   rhizomoides ,109.051,35.209,-247,-237,86.81,39.09
+74,Pleuromeia   rossica,109.321,30.801,-247,-237,94.7,22.3
+75,Neocalamites   rugosus,110.82799999999999,36.998000000000005,-247,-201,94.93,44.19
+76,Annalepis   sangziensis,108.759,31.469,-247,-237,93.87,22.59
+77,Annalepis   sangziensis,108.865,30.131,-247,-237,94.74,21.52
+78,Annalepis   sangziensis,110.756,30.967,-247,-237,95.71,23.12
+79,Annalepis   sangziensis,110.164,29.475,-247,-237,96.14,21.59
+80,Pleuromeia   sanxiaensis ,108.759,31.469,-247,-237,93.87,22.59
+81,Pleuromeia   sanxiaensis ,108.759,31.469,-247,-237,93.87,22.59
+82,Pleuromeia   sanxiaensis ,110.756,30.967,-247,-237,95.71,23.12
+83,Pleuromeia   sanxiaensis ,110.164,29.475,-247,-237,96.14,21.59
+84,Pleuromeia   sanxiaensis ,113.87799999999999,29.711,-247,-237,98.91,23.57
+85,Annalepis?   shanxiensis,114.075,40.418,-247,-201,99.54,46.96
+86,Calamites   shanxiensis,112.551,36.698,-247,-237,90.71,40.21
+87,Calamites   shanxiensis,108.759,31.469,-247,-237,93.87,22.59
+88,Calamites   shanxiensis,109.51700000000001,30.284000000000002,-247,-237,95.16,21.96
+89,Calamites   shanxiensis,110.573,30.874000000000002,-247,-237,95.63,22.95
+90,Calamites   shanxiensis,110.164,29.475,-247,-237,98.13,11.51
+91,Neocalamites   shanxiensis ,108.759,31.469,-247,-237,93.87,22.59
+92,Neocalamites   shanxiensis ,109.51700000000001,30.284000000000002,-247,-237,95.16,21.96
+93,Neocalamites   shanxiensis ,110.573,30.874000000000002,-247,-237,95.63,22.95
+94,Neocalamites   shanxiensis ,110.164,29.475,-247,-237,96.14,21.59
+95,Neocalamites   shanxiensis ,112.955,37.023,-247,-201,97.24,43.85
+96,Todites   shensiensis,82.962,41.717,-247,-237,72.82,41.7
+97,Todites   shensiensis,110.992,37.951,-247,-201,89.3,41.62
+98,Todites   shensiensis,111.01700000000001,40.048,-247,-237,89.7,43.69
+99,Todites   shensiensis,112.32600000000001,39.024,-247,-237,90.88,42.54
+100,Todites   shensiensis,109.086,34.945,-247,-201,92.45,42.47
+101,Todites   shensiensis,109.22399999999999,36.383,-247,-201,93.0,43.86
+102,Todites   shensiensis,110.7,38.643,-247,-201,95.29,45.82
+103,Todites   shensiensis,111.01700000000001,40.048,-247,-201,96.08,47.13
+104,Equisetites   stenodon,89.178,43.901,-247,-237,84.82,47.34
+105,Equisetites   stenodon,109.051,35.211,-247,-237,86.81,39.09
+106,Equisetites   stenodon,110.676,36.098,-247,-201,94.5,43.34
+107,Chiropteris   taizihoensis,123.699,41.288999999999994,-247,-237,103.1,43.54
+108,Cladophlebis   tenerus,123.699,41.288999999999994,-247,-237,103.1,43.54
+109,Pleuromeia   tongchuanensis,109.01700000000001,35.229,-247,-237,86.78,39.11
+110,Equisetites   tongchuanensis,109.051,35.209,-247,-237,86.81,39.09
+111,Hausmannia   ussuriensis,120.67,41.143,-247,-237,99.95,43.74
+112,Lesangeana   vogesiaca,112.516,37.121,-247,-237,90.74,40.64
+113,?Cladophlebidium   wongi,84.866,45.596000000000004,-247,-201,62.08,48.52
+114,Pleuromeia   wuziwanensis,109.01700000000001,35.229,-247,-237,86.78,39.11
+115,Pleuromeia   wuziwanensis,111.005,40.041,-247,-237,89.68,43.69
+116,Chiropteris   yuanii,84.866,45.596000000000004,-247,-201,62.08,48.52
+117,Bernoullia   zeilleri,88.896,44.016999999999996,-247,-237,84.73,47.57
+118,Bernoullia   zeilleri,108.944,35.323,-247,-201,86.72,39.22
+119,Bernoullia   zeilleri,109.22399999999999,36.383,-247,-201,87.18,40.24
+120,Bernoullia   zeilleri,110.7,38.643,-247,-201,89.11,42.33
+121,Bernoullia   zeilleri,111.01700000000001,40.048,-247,-237,89.7,43.69
+122,Bernoullia   zeilleri,111.01700000000001,40.048,-247,-201,89.7,43.69
+123,Symopteris   zeilleri,123.69200000000001,41.284,-247,-237,103.09,43.54
+124,Annalepis   zeilleri,116.913,30.625,-247,-237,100.73,25.8
+125,Annalepis   zeilleri,118.791,32.059,-247,-237,101.28,27.89
+126,Annalepis   zeilleri,108.759,31.469,-247,-237,93.87,22.59
+127,Annalepis   zeilleri,108.865,30.131,-247,-237,94.74,21.52
+128,Annalepis   zeilleri,110.756,30.967,-247,-237,95.71,23.12
+129,Annalepis   zeilleri,110.164,29.475,-247,-237,96.14,21.59
+130,Annalepis   zeilleri,112.96799999999999,37.071,-247,-201,97.27,43.89
+131,Bernouillia   zeilleri,110.681,36.097,-247,-201,88.66,39.81
+132,Ginkgoites    cf. chowi,82.959,41.716,-247,-237,72.82,41.7
+133,Taeniopteris   abnormis,111.005,40.041,-247,-237,89.68,43.69
+134,Benxipteris   acuta,123.68700000000001,41.282,-247,-237,103.08,43.53
+135,Dicrodium   allophyllum,123.68700000000001,41.282,-247,-237,103.08,43.53
+136,Yuccites    anastomosis,110.31299999999999,29.522,-247,-237,96.86,27.43
+137,Willsiostrobus   cf.  cordiformis,110.29299999999999,29.511,-247,-237,96.22,21.68
+138,Voltzia   cf.  koeneni ,110.48,19.121,-247,-237,100.34,17.53
+139,Albertia    cf.  latifolia ,123.68700000000001,41.282,-247,-237,103.08,43.53
+140,Voltzia   cf.  walchiaeformis ,110.601,37.689,-247,-237,88.84,41.4
+141,Voltzia   cf.  walchiaeformis ,111.00399999999999,40.04,-247,-237,89.68,43.68
+142,Willsiostrobus   cf.  willsii ,110.82799999999999,36.998000000000005,-247,-201,90.2,33.29
+143,Glossopteris   cf. angustifolia,109.052,35.21,-247,-237,86.81,39.09
+144,Sphenobaiera    cf. crassinervis ,111.005,40.04,-247,-237,89.68,43.68
+145,Aipteridium   cf. kuqaense,82.925,41.708,-247,-237,72.78,41.71
+146,Ginkgo    cf. magnifolia ,111.005,40.04,-247,-237,89.68,43.68
+147,Yabeiella   cf. mareyesiaca,123.68700000000001,41.282,-247,-237,103.08,43.53
+148,Ginkgoites    cf. marginatus,111.005,40.04,-247,-237,89.68,43.68
+149,Psygmophyllum    cf. multipartitum,123.68700000000001,41.282,-247,-237,103.08,43.53
+150,Peltaspermum   cf. rotula,110.829,36.998000000000005,-247,-237,88.96,40.69
+151,Ctenozamites   cf. sarrani,112.29799999999999,39.001,-247,-237,90.85,42.52
+152,Ctenozamites   cf. sarrani,111.669,36.254,-247,-201,95.62,43.32
+153,Tongchuanophyllum   cf. shensiense,112.509,37.113,-247,-237,90.73,40.63
+154,Lepidopteris   cf. toretziensis,112.552,36.699,-247,-237,90.71,40.21
+155,Aipteris   cf. wuziwanensis,123.68700000000001,41.282,-247,-237,103.08,43.53
+156,Glossopteris   chinensis,109.01799999999999,35.23,-247,-237,86.78,39.12
+157,Tongchuanophyllum   concinnum,109.052,35.21,-247,-237,86.81,39.09
+158,Nilssonia   costanervis,110.294,29.511,-247,-237,96.22,21.68
+159,Ginkgoidium    crassifolium,82.959,41.716,-247,-237,72.82,41.7
+160,Scytophyllum?    cryptonerve,111.955,38.632,-247,-237,90.42,42.19
+161,Voltzia   curtifolis,110.29299999999999,29.511,-247,-237,96.22,21.68
+162,Benxipteris   densinervis,123.68700000000001,41.282,-247,-237,103.08,43.53
+163,Nilssonia   grandifolia,111.005,40.041,-247,-237,89.68,43.69
+164,Voltzia   heterophylla,110.29299999999999,29.511,-247,-237,96.22,21.68
+165,?Protoblechnum   hughesi,112.29799999999999,39.001,-247,-201,97.14,45.89
+166,Compsopteris   hughesii,82.925,41.708,-247,-237,72.78,41.71
+167,Compsopteris?   hughesii,110.294,29.511,-247,-237,96.22,21.68
+168,Scytophyllum   hunanense,110.294,29.511,-247,-237,96.22,21.68
+169,Aipteridium   kuqaense,82.925,41.708,-247,-237,72.78,41.71
+170,Podozamites    lanceolatus,123.68700000000001,41.282,-247,-237,103.08,43.53
+171,Podozamites    lanceolatus,111.00399999999999,40.04,-247,-237,89.68,43.68
+172,Sagenopteris   lanceolatus,110.829,36.998000000000005,-247,-201,94.93,44.19
+173,Stenorachis    lepida ,109.01700000000001,35.23,-247,-237,86.78,39.12
+174,Stenorachis    lepida ,111.005,40.04,-247,-237,89.68,43.68
+175,Swedenborgia   linjiaensis ,123.69200000000001,41.284,-247,-237,103.09,43.54
+176,Taeniopteris?   longxianensis,106.93799999999999,34.806,-247,-237,84.54,38.9
+177,Tongchuanophyllum   magnifolius,112.06,38.699,-247,-201,96.79,45.64
+178,Sinozamites   magnus,123.68700000000001,41.282,-247,-237,103.08,43.53
+179,Thinnfeldia   major,123.68700000000001,41.282,-247,-237,103.08,43.53
+180,Peltaspermum   miracarinatum,110.165,29.475,-247,-237,96.14,21.59
+181,Yabeiella   multinervis,123.68700000000001,41.282,-247,-237,103.08,43.53
+182,Sinozamites   myrioneurus,123.68700000000001,41.282,-247,-237,103.08,43.53
+183,Thinnfeldia?   nordenskioeldii,110.294,29.511,-247,-237,96.22,21.68
+184,Lepidopteris   ottonis,84.887,45.57899999999999,-247,-201,66.47,53.75
+185,Benxipteris   partita,123.68700000000001,41.282,-247,-237,103.08,43.53
+186,Benxipteris   polymorpha,123.68700000000001,41.282,-247,-237,103.08,43.53
+187,Sinoctenis   pulcella,105.23100000000001,32.196,-247,-237,90.73,21.58
+188,Sphenobaiera    qiandianziense,123.68700000000001,41.282,-247,-237,103.08,43.53
+189,Tersiella   radczenkoi,82.925,41.708,-247,-237,72.78,41.71
+190,Samaropsis    rhombicus ,123.69200000000001,41.284,-247,-237,103.09,43.54
+191,Sphenobaiera    rugata ,110.986,37.95,-247,-201,95.39,45.09
+192,Ctenozamites   sarrani,111.005,40.041,-247,-237,89.68,43.69
+193,Drepanozamites   schizophylla,82.925,41.708,-247,-237,72.78,41.71
+194,Pityolepis?   shanxiensis,110.626,36.759,-247,-201,89.93,33.1
+195,Tongchuanophyllum   shensiense,109.052,35.21,-247,-237,86.81,39.09
+196,Glossophyllum?   shensiense,82.959,41.716,-247,-237,72.82,41.7
+197,Glossophyllum?   shensiense,111.005,40.04,-247,-237,89.68,43.68
+198,Glossophyllum?   shensiense,110.986,37.95,-247,-201,95.39,45.09
+199,Glossophyllum?   shensiense,107.841,36.456,-247,-237,85.74,40.45
+200,Mixophylum   simplex,82.925,41.708,-247,-237,72.78,41.71
+201,Yuccites   spathulata,87.624,43.792,-247,-201,87.75,42.94
+202,Pachypteris   tarimensis,82.925,41.708,-247,-237,72.78,41.71
+203,Tongchuanophyllum   trigonus,109.052,35.21,-247,-237,86.81,39.09
+204,Yuccites    vogesiacus,110.31299999999999,29.522,-247,-237,96.86,27.43
+205,Neuropteridium   voltzii,110.294,29.511,-247,-237,96.22,21.68
+206,Voltzia   weismanni,110.48,19.121,-247,-237,100.34,17.53
+207,Compsopteris    wongii,111.005,40.041,-247,-237,89.68,43.69
+208,Aipteris   wuziwanensis,111.005,40.041,-247,-237,89.68,43.69
+209,Hepaticites   minutus,123.68700000000001,41.282,-247,-237,103.08,43.53

@@ -1,0 +1,252 @@
+{
+  "name": "MESOZOIC",
+  "color": "#58C3E1",
+  "children": [
+    {
+      "name": "TRIASSIC",
+      "color": "#924898",
+      "children": [
+        {
+          "name": "EARLY",
+          "color": "#A6559D",
+          "children": [
+            {
+              "name": "INDUAN",
+              "color": "#B061A3",
+              "min": -251.9,
+              "max": -251.2
+            },
+            {
+              "name": "OLENEKIAN",
+              "color": "#B96EAA",
+              "min": -251.2,
+              "max": -247.2
+            }
+          ]
+        },
+        {
+          "name": "MIDDLE",
+          "color": "#BA84B8",
+          "children": [
+            {
+              "name": "ANISIAN",
+              "color": "#C490BF",
+              "min": -247.2,
+              "max": -242
+            },
+            {
+              "name": "LADINIAN",
+              "color": "#CF9DC6",
+              "min": -242,
+              "max": -237
+            }
+          ]
+        },
+        {
+          "name": "LATE",
+          "color": "#C6A4CC",
+          "children": [
+            {
+              "name": "CARNIAN",
+              "color": "#D0B1D3",
+              "min": -237,
+              "max": -227
+            },
+            {
+              "name": "NORIAN",
+              "color": "#DBBDDA",
+              "min": -227,
+              "max": -208.5
+            },
+            {
+              "name": "RHAETIAN",
+              "color": "#E5CBE1",
+              "min": -208.5,
+              "max": -201.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JURASSIC",
+      "color": "#00B0E4",
+      "children": [
+        {
+          "name": "EARLY",
+          "color": "#01AEE9",
+          "children": [
+            {
+              "name": "HETTANGIAN",
+              "color": "#1EB3EA",
+              "min": -201.3,
+              "max": -199.3
+            },
+            {
+              "name": "SINEMURIAN",
+              "color": "#57BDED",
+              "min": -199.3,
+              "max": -190.8
+            },
+            {
+              "name": "PLIENSBACHIAN",
+              "color": "#81C7EF",
+              "min": -190.8,
+              "max": -182.7
+            },
+            {
+              "name": "TOARCIAN",
+              "color": "#9FD1F1",
+              "min": -182.7,
+              "max": -174.1
+            }
+          ]
+        },
+        {
+          "name": "MIDDLE",
+          "color": "#81CEEB",
+          "children": [
+            {
+              "name": "AALENIAN",
+              "color": "#9FD8ED",
+              "min": -174.1,
+              "max": -170.3
+            },
+            {
+              "name": "BAJOCIAN",
+              "color": "#AEDEEF",
+              "min": -170.3,
+              "max": -168.3
+            },
+            {
+              "name": "BATHONIAN",
+              "color": "#BAE3F0",
+              "min": -168.3,
+              "max": -166.1
+            },
+            {
+              "name": "CALLOVIAN",
+              "color": "#C8E8F1",
+              "min": -166.1,
+              "max": -163.5
+            }
+          ]
+        },
+        {
+          "name": "LATE",
+          "color": "#B9E3F9",
+          "children": [
+            {
+              "name": "OXFORDIAN",
+              "color": "#C7E8FA",
+              "min": -163.5,
+              "max": -157.3
+            },
+            {
+              "name": "KIMMERIDGIAN",
+              "color": "#D3EDFB",
+              "min": -157.3,
+              "max": -152.1
+            },
+            {
+              "name": "TITHONIAN",
+              "color": "#DFF2FC",
+              "min": -152.1,
+              "max": -145.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRETACEOUS",
+      "color": "#8EC662",
+      "children": [
+        {
+          "name": "EARLY",
+          "color": "#9ACB6B",
+          "children": [
+            {
+              "name": "BERRIASIAN",
+              "color": "#99CC77",
+              "min": -145.0,
+              "max": -139.8
+            },
+            {
+              "name": "VALANGINIAN",
+              "color": "#A8D182",
+              "min": -139.8,
+              "max": -132.9
+            },
+            {
+              "name": "HAUTERIVIAN",
+              "color": "#B4D78D",
+              "min": -132.9,
+              "max": -129.4
+            },
+            {
+              "name": "BARREMIAN",
+              "color": "#BFDC98",
+              "min": -129.4,
+              "max": -125
+            },
+            {
+              "name": "APTIAN",
+              "color": "#CCE2A3",
+              "min": -125,
+              "max": -113
+            },
+            {
+              "name": "CALLOVIAN",
+              "color": "#D7E8AE",
+              "min": -113,
+              "max": -100.5
+            }
+          ]
+        },
+        {
+          "name": "LATE",
+          "color": "#CEE298",
+          "children": [
+            {
+              "name": "CENOMANIAN",
+              "color": "#C2D968",
+              "min": -100.5,
+              "max": -93.9
+            },
+            {
+              "name": "TURONIAN",
+              "color": "#CDDF74",
+              "min": -93.9,
+              "max": -89.8
+            },
+            {
+              "name": "CONIACIAN",
+              "color": "#D8E481",
+              "min": -89.8,
+              "max": -86.3
+            },
+            {
+              "name": "SANTONIAN",
+              "color": "#E3EA8D",
+              "min": -86.3,
+              "max": -83.6
+            },
+            {
+              "name": "CAMPANIAN",
+              "color": "#EDEF99",
+              "min": -83.6,
+              "max": -72.1
+            },
+            {
+              "name": "MAASTRICHTIAN",
+              "color": "#F6F4A4",
+              "min": -72.1,
+              "max": -66.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

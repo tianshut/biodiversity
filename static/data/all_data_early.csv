@@ -1,0 +1,119 @@
+,divide,category,species,species_name,modern_longitude,modern_latitude,start_year,end_year,ancient_longitude,ancient_latitude
+0,F,Pleuromeia,altinis,Pleuromeia   altinis,112.069,37.595,-251,-247,91.53,33.6
+1,F,Phyllotheca,bella,Phyllotheca   bella,110.493,19.122,-251,-247,104.85,3.58
+2,F,Phyllotheca,bicruris,Phyllotheca   bicruris,113.307,37.455,-251,-247,92.62,33.2
+3,F,Neocalamites,carrerei,Neocalamites   carrerei,104.53299999999999,31.665,-251,-247,92.86,10.27
+4,F,Neocalamites,cf. merianii,Neocalamites   cf. merianii,82.959,41.716,-251,-247,76.55,35.48
+5,F,Cladophlevis,cf. raciborskii,Cladophlevis   cf. raciborskii,82.96799999999999,41.723,-251,-247,76.56,35.49
+6,F,Anomopteris,cf.mougeotii,Anomopteris   cf.mougeotii,112.21600000000001,34.439,-251,-247,90.68,30.52
+7,F,Annalepis,chudeensis,Annalepis   chudeensis,118.165,40.763000000000005,-251,-247,98.08,35.39
+8,F,Sphenopteris,delabens,Sphenopteris   delabens,113.061,36.961999999999996,-251,-247,92.24,32.78
+9,F,Pleuromeia,epicharis,Pleuromeia   epicharis,112.181,35.691,-251,-247,91.03,31.74
+10,F,Pleuromeia,epicharis,Pleuromeia   epicharis,111.868,34.748000000000005,-251,-247,90.45,30.9
+11,F,Pleuromeia,epicharis,Pleuromeia   epicharis,113.235,37.532,-251,-247,92.58,33.29
+12,F,Schizoneura,gondwanensis,Schizoneura   gondwanensis,82.959,41.716,-251,-247,76.55,35.48
+13,F,Macrostachya,gracilis,Macrostachya   gracilis,115.979,36.455999999999996,-251,-247,94.75,31.68
+14,F,Pleuromeia,jiaochengensis,Pleuromeia   jiaochengensis,112.148,37.551,-251,-247,91.59,33.54
+15,F,Phyllotheca,marginans,Phyllotheca   marginans,110.471,19.111,-251,-247,104.84,3.56
+16,F,Schizoneura,megaphylla,Schizoneura   megaphylla,113.054,36.961999999999996,-251,-247,92.23,32.78
+17,F,Anomopteris,minima,Anomopteris   minima,113.23700000000001,37.608000000000004,-251,-247,92.6,33.36
+18,F,Cf. Anomopteris,mougeotii,Cf. Anomopteris   mougeotii,112.32600000000001,37.068000000000005,-251,-247,91.6,33.04
+19,F,Equisetum,mougeotii,Equisetum   mougeotii,119.97200000000001,41.687,-251,-247,99.99,35.92
+20,F,Schizoneura-Echinostachys,paradoxa,Schizoneura-Echinostachys   paradoxa,119.97200000000001,41.687,-251,-247,99.99,35.92
+21,F,Pleuromeia,pateriformis,Pleuromeia   pateriformis,110.86399999999999,36.501,-251,-247,90.07,32.8
+22,F,Equisetites,qionghaiensis,Equisetites   qionghaiensis,110.493,19.122,-251,-247,104.85,3.58
+23,F,Pleuromeia,rossica,Pleuromeia   rossica,113.09700000000001,37.109,-251,-247,92.32,32.91
+24,F,Isoetites,sagittatus,Isoetites   sagittatus,111.20700000000001,36.375,-251,-247,90.35,32.61
+25,F,Equisetum,sarrani,Equisetum   sarrani,117.96600000000001,25.230999999999998,-251,-247,106.35,12.68
+26,F,Calamites,shanxiensis,Calamites   shanxiensis,112.955,37.023,-251,-237,92.16,32.86
+27,F,Calamites,shanxiensis,Calamites   shanxiensis,110.82799999999999,36.998000000000005,-251,-247,90.2,33.29
+28,F,Neoannularia,shanxiensis,Neoannularia   shanxiensis,113.235,37.532,-251,-247,92.58,33.29
+29,F,Neoannularia,shanxiensis,Neoannularia   shanxiensis,113.054,36.961999999999996,-251,-247,92.23,32.78
+30,F,Neocalamites,shanxiensis,Neocalamites   shanxiensis,112.955,37.023,-251,-237,92.16,32.86
+31,F,Neocalamites,shanxiensis,Neocalamites   shanxiensis,119.97200000000001,41.687,-251,-247,99.99,35.92
+32,F,Todites,shensiensis,Todites   shensiensis,110.48,19.121,-251,-247,104.84,3.57
+33,F,Todites,shensiensis,Todites   shensiensis,110.491,19.125999999999998,-251,-247,104.84,3.58
+34,F,Annularia,shirakii,Annularia   shirakii,104.375,25.839000000000002,-251,-247,96.26,5.51
+35,F,Jaenschea,sinensis,Jaenschea   sinensis,116.944,40.21,-251,-201,96.19,28.66
+36,F,Pleuromeia,sternbergi,Pleuromeia   sternbergi,113.09700000000001,37.109,-251,-247,92.32,32.91
+37,F,Pleuromeia,sternbergi,Pleuromeia   sternbergi,112.96799999999999,37.071,-251,-247,92.18,32.9
+38,F,Pleuromeia,sternbergi,Pleuromeia   sternbergi,114.206,36.419000000000004,-251,-247,93.12,32.01
+39,F,Pleuromeia,sternbergi,Pleuromeia   sternbergi,112.596,35.067,-251,-247,91.22,31.05
+40,F,Cf. Asterotheca,szeiana,Cf. Asterotheca   szeiana,110.493,19.127,-251,-247,104.85,3.58
+41,F,Metalepidodendron,xiabanchengensis,Metalepidodendron   xiabanchengensis,118.165,40.763000000000005,-251,-247,98.08,35.39
+42,F,Metalepidodendron,xiabanchengensis,Metalepidodendron   xiabanchengensis,112.596,35.067,-251,-247,91.22,31.05
+43,F,Pecopteris,yangshugouensis,Pecopteris   yangshugouensis,124.223,41.06399999999999,-251,-247,103.57,34.49
+44,F,Sphenopteris,yusheensis,Sphenopteris   yusheensis,113.068,36.967,-251,-247,92.24,32.78
+45,F,Phyllotheca,yusheensis,Phyllotheca   yusheensis,112.095,37.676,-251,-247,91.58,33.67
+46,F,Phyllotheca,yusheensis,Phyllotheca   yusheensis,113.054,36.961999999999996,-251,-247,92.23,32.78
+47,F,Annalepis,zeilleri,Annalepis   zeilleri,118.165,40.763000000000005,-251,-247,98.08,35.39
+48,G,Yuccites,anastomosis,Yuccites   anastomosis,112.96799999999999,37.07,-251,-247,92.18,32.9
+49,G,Gomphostrobus,bifidus,Gomphostrobus   bifidus,116.194,39.97,-298,-201,89.47,22.28
+50,G,Crematopteris,brevipinnata,Crematopteris   brevipinnata,112.096,37.676,-251,-247,91.58,33.67
+51,G,Peltaspermum,calycinum,Peltaspermum   calycinum,112.096,37.676,-251,-247,91.58,33.67
+52,G,Peltaspermum,calycinum,Peltaspermum   calycinum,113.307,37.455,-251,-247,92.62,33.2
+53,G,Qionghaia,carnosa,Qionghaia   carnosa,110.493,19.122,-251,-247,104.85,3.58
+54,G,Willsiostrobus,cf.  Cordiformis,Willsiostrobus   cf.  Cordiformis,112.96799999999999,37.07,-251,-247,92.18,32.9
+55,G,Willsiostrobus,cf.  Denticulatus,Willsiostrobus   cf.  Denticulatus,113.235,37.532,-251,-247,92.58,33.29
+56,G,Voltzia,cf.  Heterophylla,Voltzia   cf.  Heterophylla,112.96799999999999,37.07,-251,-247,92.18,32.9
+57,G,Voltzia,cf.  Heterophylla,Voltzia   cf.  Heterophylla,112.17200000000001,34.516,-251,-247,90.66,30.61
+58,G,Voltzia,cf.  Koeneni,Voltzia   cf.  Koeneni,110.537,19.1789,-251,-247,104.85,3.65
+59,G,Albertia,cf.  Speciosa,Albertia   cf.  Speciosa,110.48,19.121,-251,-247,104.84,3.57
+60,G,Scytophyllum,cf. bergeri,Scytophyllum   cf. bergeri,112.17299999999999,34.516,-251,-247,90.66,30.61
+61,G,Tongchuanophyllum,cf. concinnum,Tongchuanophyllum   cf. concinnum,113.055,36.961999999999996,-251,-247,92.23,32.78
+62,G,Uralophyllum?,cf. radczenkoi,Uralophyllum?   cf. radczenkoi,82.959,41.716,-251,-247,76.55,35.48
+63,G,Tongchuanophyllum,cf. shensiense,Tongchuanophyllum   cf. shensiense,113.236,37.533,-251,-247,92.58,33.29
+64,G,Crematopteris,cf. typica,Crematopteris   cf. typica,112.32,37.056,-251,-247,91.59,33.03
+65,G,Crematopteris,cf. typica,Crematopteris   cf. typica,112.205,35.043,-251,-247,90.85,31.11
+66,G,Cycadocarpidium,cf.pilosum,Cycadocarpidium   cf.pilosum,119.613,40.887,-251,-247,99.42,35.22
+67,G,Crematopteris,ciricinalis,Crematopteris   ciricinalis,112.148,37.551,-251,-247,91.59,33.54
+68,G,Glossotheca,cochlearis,Glossotheca   cochlearis,113.055,36.961999999999996,-251,-247,92.23,32.78
+69,G,Taeniopteris,costiformis,Taeniopteris   costiformis,110.471,19.112000000000002,-251,-247,104.84,3.56
+70,G,Glossotheca,cuneiformis,Glossotheca   cuneiformis,113.055,36.961999999999996,-251,-247,92.23,32.78
+71,G,Neuropteridium,curvinerve,Neuropteridium   curvinerve,113.23,37.608000000000004,-251,-247,92.6,33.36
+72,G,Cf. Ctenozamites,cycadea,Cf. Ctenozamites   cycadea,110.471,19.112000000000002,-251,-247,104.84,3.56
+73,G,Estherella,delicatula,Estherella   delicatula,113.055,36.961999999999996,-251,-247,92.23,32.78
+74,G,Gigantopteris,dentata,Gigantopteris   dentata,117.012,25.078000000000003,-251,-247,105.78,12.01
+75,G,Albertia,elliptica,Albertia   elliptica,110.537,19.178,-251,-247,104.85,3.65
+76,G,Yuccites,ensiformis,Yuccites   ensiformis,110.537,19.1789,-251,-247,104.85,3.65
+77,G,Taeniopteris,hainanensis,Taeniopteris   hainanensis,110.471,19.112000000000002,-251,-247,104.84,3.56
+78,G,Voltzia,heterophylla,Voltzia   heterophylla,110.537,19.1789,-251,-247,104.85,3.65
+79,G,Ruehleostachys?,hongyantouensis,Ruehleostachys?   hongyantouensis,112.96799999999999,37.07,-251,-247,92.18,32.9
+80,G,Williamsoniella,jianshangouensis,Williamsoniella   jianshangouensis,113.055,36.961999999999996,-251,-247,92.23,32.78
+81,G,Mediocycas,kazuoensis,Mediocycas   kazuoensis,119.613,40.887,-251,-247,99.42,35.22
+82,G,Aipteridium,kuqaense,Aipteridium   kuqaense,82.959,41.716,-251,-247,76.55,35.48
+83,G,Albertia,latifolia,Albertia   latifolia,110.488,19.129,-251,-247,104.84,3.58
+84,G,Willsiostrobus,ligulatus,Willsiostrobus   ligulatus,112.96799999999999,37.07,-251,-247,92.18,32.9
+85,G,Peltaspermum,lobulatum,Peltaspermum   lobulatum,112.096,37.676,-251,-247,91.58,33.67
+86,G,Cf. Glyptolepis,longbracteata,Cf. Glyptolepis   longbracteata,110.488,19.129,-251,-247,104.84,3.58
+87,G,Tongchuanophyllum,magnifolius,Tongchuanophyllum   magnifolius,112.552,36.699,-251,-247,91.69,32.63
+88,G,Ginkgoites,magnifolius,Ginkgoites   magnifolius,110.006,36.579,-251,-201,83.07,22.52
+89,G,Neuropteridium,margninatum,Neuropteridium   margninatum,110.48899999999999,19.117,-251,-247,104.85,3.57
+90,G,Tongchuanophyllum,minimum,Tongchuanophyllum   minimum,113.055,36.961999999999996,-251,-247,92.23,32.78
+91,G,Zamiopteris,minor,Zamiopteris   minor,113.055,36.961999999999996,-251,-247,92.23,32.78
+92,G,Ammatopsis,mira,Ammatopsis   mira,110.537,19.178,-251,-247,104.85,3.65
+93,G,Taeniopteris,mironervis,Taeniopteris   mironervis,110.493,19.122,-251,-247,104.85,3.58
+94,G,Thinnfeldia,monopinnata,Thinnfeldia   monopinnata,113.23,37.608000000000004,-251,-247,92.6,33.36
+95,G,Tricranolepis,obtusiloba,Tricranolepis   obtusiloba,111.09,36.411,-251,-247,90.25,32.67
+96,G,Leuthardtia,ovalis,Leuthardtia   ovalis,110.538,19.179000000000002,-251,-247,104.85,3.65
+97,G,Squamocarpus,papilioformis,Squamocarpus   papilioformis,104.37700000000001,25.836,-251,-247,96.26,5.51
+98,G,Hallea,pekinensis,Hallea   pekinensis,116.194,39.97,-298,-201,89.47,22.28
+99,G,Glossotheca,petiolata,Glossotheca   petiolata,113.055,36.961999999999996,-251,-247,92.23,32.78
+100,G,Masculostrobus?,prolatus,Masculostrobus?   prolatus,110.48,19.121,-251,-247,104.84,3.57
+101,G,Gangamopteris,qinshuiensis,Gangamopteris   qinshuiensis,113.055,36.961999999999996,-251,-247,92.23,32.78
+102,G,Voltzia,quinquepetala,Voltzia   quinquepetala,112.96799999999999,37.07,-251,-247,92.18,32.9
+103,G,Drepanozamites,schizophylla,Drepanozamites   schizophylla,82.959,41.716,-251,-247,76.55,35.48
+104,G,Glossopteris,shanxiensis,Glossopteris   shanxiensis,113.055,36.961999999999996,-251,-247,92.23,32.78
+105,G,Palaeovittaria,shanxiensis,Palaeovittaria   shanxiensis,113.055,36.961999999999996,-251,-247,92.23,32.78
+106,G,Nilssonia,simplex,Nilssonia   simplex,116.194,39.97,-251,-201,95.09,43.07
+107,G,Sphenobaiera,spectabilis,Sphenobaiera   spectabilis,119.14,31.646,-251,-247,102.76,18.18
+108,G,Aethophyllum,stipulare,Aethophyllum   stipulare,119.613,40.887,-251,-247,99.42,35.22
+109,G,Ginkgoites,tetralobus,Ginkgoites   tetralobus,119.14,31.646,-251,-247,102.76,18.18
+110,G,Gangamopteris?,tuncunensis,Gangamopteris?   tuncunensis,113.055,36.961999999999996,-251,-247,92.23,32.78
+111,G,Crematopteris,typica,Crematopteris   typica,119.613,40.887,-251,-247,99.42,35.22
+112,G,Yuccites,vogesiacus,Yuccites   vogesiacus,119.613,40.887,-251,-247,99.42,35.22
+113,G,Voltzia,weismanni,Voltzia   weismanni,110.537,19.1789,-251,-247,104.85,3.65
+114,G,Carpolithus,yamasidai,Carpolithus   yamasidai,104.214,26.484,-259,-251,96.74,-11.42
+115,G,Cardiocarpus,yuccinoides,Cardiocarpus   yuccinoides,113.055,36.961,-251,-247,92.23,32.78
+116,G,Cardiocarpus,yuccinoides,Cardiocarpus   yuccinoides,113.235,37.532,-251,-247,92.58,33.29
+117,G,Compsopteris,zhonghuaensis,Compsopteris   zhonghuaensis,82.959,41.716,-251,-247,76.55,35.48
